@@ -6,7 +6,7 @@ import time
 import json
 import pickle
 
-def inventorySnapshot():
+def inventory_snapshot():
 
     try:
         with open('fisherkia.pickle', 'rb') as fp:
@@ -31,4 +31,4 @@ def inventorySnapshot():
         fp.close()
 
 if __name__ == "__main__":
-    inventorySnapshot()
+    inventory_snapshot()
